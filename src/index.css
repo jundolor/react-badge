@@ -1,13 +1,81 @@
 body {
-  margin: 0;
+  margin: 20px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e1e8e3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div#root, .selectBadgeColor{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  max-width: 300px;
+
+}
+
+.badge{
+  padding: 2px 12px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.square{
+  border-radius: 4px;
+}
+
+.pill{
+  border-radius: 12px;
+}
+
+.graybg{
+  color: #1F2937;
+  background-color: #F3F4F6;
+}
+
+.redbg{
+  color: #991B1B;
+  background-color: #FEE2E2;
+}
+
+.yellowbg{
+  color:#92400E;
+  background-color: #FEF3C7;
+}
+
+.greenbg{
+  color:#065F46;
+  background-color: #D1FAE5;
+}
+
+.bluebg{
+  color: #1E40AF;
+  background-color: #DBEAFE;
+}
+
+.indigobg{
+  color: #3730A3;
+  background-color: #E0E7FF;
+}
+
+.purplebg{
+  color: #5B21B6;
+  background-color: #EDE9FE;
+}
+
+.pinkbg{
+  color: #9D174D;
+  background-color: #FCE7F3;
 }
