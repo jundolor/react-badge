@@ -9,7 +9,7 @@ export default function BadgeFooter(){
                 <li>Passing of components inner structure as Children props
 </li>
             </ul>
-            <p>Visit my LinkedIn profile at <a href="https://www.linkedin.com/in/jun-dolor/" target="_blank">linkedin.com/in/jun-dolor/</a></p>
+            <p>Visit my LinkedIn profile at <a href="https://www.linkedin.com/in/jun-dolor/" target="_blank" rel="noreferrer">linkedin.com/in/jun-dolor/</a></p>
         </footer>
     )
 }
