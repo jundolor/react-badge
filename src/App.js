@@ -9,6 +9,7 @@ function App() {
         <Badge.Container>Badge</Badge.Container>
         <Badge.RadioCorner></Badge.RadioCorner>
         <Badge.SelectColor></Badge.SelectColor>
+        <Badge.Footer></Badge.Footer>
       </Badge>
     </>
   );
